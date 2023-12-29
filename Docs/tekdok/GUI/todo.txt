@@ -1,0 +1,25 @@
+Remember to write all functions ABOVE the mainloop() statement.
+
+[x] fix circular import. Currently can't call functions that are in TSEA29_functions from TSEA29_GUI. We want to be able to call functions and have those functions modify values inside TSEA29_GUI.
+POSSIBLE FIX: write everything in the same file. Easiest, but doesn't look good.
+
+[] write all functions and get the buttons to actually do something with these functions when pressed. 
+
+[x] remove all buttons to do with rotation
+
+[] (Optional) Divide project into classes
+
+[] write labels for status-frame.
+    Speed. (Servo speed)
+    Distance (Fwd, Left, Right)
+    Connection Status
+
+[] investigate if it is possible for a button to stay active only during the duration that it is being pressed. This is so that the car will turn as long as it this button is being pressed.
+    [] implement the above described feature.
+
+    OR 
+
+[x] investigate if the main window is able to listen for keyklicks during a duration instead.
+    [] implement the above described feature.
+
+    In-GUI button-press binds arrowkeys to functions. Clicking that button again UNBINDS these keys, giving the illusion that the program only listens when we want it to.
